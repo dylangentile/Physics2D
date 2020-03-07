@@ -61,15 +61,10 @@ Temporary Items
 .apdisk
 
 
-# Ignore everything that is created by running autoreconf, configure.ac or make.
-
-# No leading slash means ignore these FILES no matter in which directory they
-# appear. Yes, we ignore Makefiles and 'configure' scripts because they are all
-# generated for us!
 *.exe
 *.o
-Makefile
-Makefile.in
+#Makefile
+#Makefile.in
 TAGS
 aclocal.m4
 compile
